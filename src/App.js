@@ -1,11 +1,15 @@
 import './App.css';
-import Homepage from './Homepage';
+import Homepage from './components/Homepage';
+import Nav from './components/Nav';
+import Menu from './components/Menu';
 
 function App() {
   return (
-    <div className="App">
+    <>
+      < Nav />
       < Homepage />
-    </div>
+      < Menu />
+    </>
   );
 }
 
